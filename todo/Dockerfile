@@ -17,7 +17,7 @@ RUN poetry config virtualenvs.create false \
 # Copy the rest of the FastAPI app code into the container
 COPY . .
 
-# Expose port 80 to the outside world
+# Expose port 8000 to the outside world
 EXPOSE 8000
 
 # Run the FastAPI server using uvicorn
